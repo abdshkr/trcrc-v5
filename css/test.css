@@ -1,0 +1,41 @@
+
+@font-face{
+  font-family: "LinLibertine_R";
+  src: url("../fonts/linux_libertine/LinLibertine_R.ttf");
+}
+
+@font-face{
+  font-family: "LinLibertine_RB";
+  src: url("../fonts/linux_libertine/LinLibertine_RB.ttf");
+}
+
+@font-face{
+  font-family: "Quicksand_Bold";
+  src: url("../fonts/quicksand/Quicksand_Bold.otf");
+}
+
+@font-face{
+  font-family: "Quicksand_Book";
+  src: url("../fonts/quicksand/Quicksand_Book.otf");
+}
+
+@font-face{
+  font-family: "Quicksand_Book_Oblique";
+  src: url("../fonts/quicksand/Quicksand_Book_Oblique.otf");
+}
+
+@font-face{
+  font-family: "HelveticaNeue-Regular";
+  src: url("../fonts/HelveticaNeue/HelveticaNeue-Regular.ttf");
+}
+
+	
+.box {
+  display: none;
+  background: #ccc;
+  width: 200px;
+  height: 100px;
+}
+#trigger:checked + .box {
+  display: block;
+}

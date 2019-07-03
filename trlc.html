@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<!--CSS IMPORT-->
+<link rel="stylesheet" href="./css/bootstrap.css">
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/trlc.css">
+<link rel="stylesheet" href="./css/slider-trlc.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+<!--JS Import And CODE-->
+<!-- jQuery library -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+<!-- Bootstrap JS -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<link rel="icon" href="./img/logo-icon.ico">
+<title> Tropical Rainforest Living Colletion - Tropical Rainforest Conservation & Research Center</title>
+</head>
+<body>
+<!--    Made by Erik Terwan    -->
+<!--   24th of November 2015   -->
+<!--        MIT License        -->
+<nav role='navigation'>
+  <div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input type="checkbox" class="menu-check"/>
+    
+    <!--
+    Some spans to act as a hamburger.
+    
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+    <ul class="menu-box"id="menu">
+      <a href="./about.html" id="opt"><li>About Us</li></a>
+      <a href="./program.html" id="opt"><li>Programmes</li></a>
+      <a href="./partnership.html" id="opt"><li>Partnership</li></a>
+      <a href="./volunteer.html" id="opt"><li>Volunteering</li></a>
+      <a href="./highlight.html" id="opt"><li>Highlight</li></a>
+      <a href="./contact.html" id="opt"><li>Contact Us</li></a>
+      <a href="https://www.landskapmalaysia.org/" id="opt"><li>Landskap Malaysia</li></a>
+      <li></li>
+      <li><a href="https://www.facebook.com/trcrc.org/" target="_blank"><img src="./img/facebook-m.png" alt="" id="fbimg"></a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="https://www.instagram.com/trcrc_org/" target="_blank"><img src="./img/instagram-m.png" alt="" id="igimg"></a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="https://www.youtube.com/channel/UC_-9bPgsC-F_cbbQha1t4Tg" target="_blank"><img src="./img/youtube-m.png" alt="" id="ytimg"></a>
+      </li>
+      
+    </ul>
+    
+  </div>
+</nav>
+<div class="imglogo">
+    <a href="./index.html"><img src="./img/logo.png" alt=""></a>
+</div>
+
+    <a href="#" id="return-to-top"><i class="icon-chevron-up"></i></a>
+    <div class="trlc-head">
+        <div class="container-fluid" id="trlc-head-cont"  >
+            <div class="row" id="row-title">
+                <div class="logo-brand">
+                        <img src="./img/orange-trlc.png" >
+                </div>
+                
+            </div>
+            <div class="trlc-lbl">
+                    <p><span style="font-family:'LinLibertine_R';font-size:calc(9pt + (12 - 9) * ((100vw - 300px) / (1600 - 300)));">TRLC- Banun, Perak</span><br>
+                    <span style="font-style: italic">/Tropical Rainforest Living Collection/</span>
+                    <br><br>Raising thousands of seedlings requires the careful
+                    maintenance and care for them over many years. Here
+                    members of the G-team Perak are weeding seedlings in
+                    TRLC Banun.</p>
+            </div>
+        </div>
+    </div>
+    <div class="trlc-content-1">
+        <div class="container-fluid" id="trlc-inf-cont"  >
+                <div class="row" id="cont-1" style="margin-top:7%; margin-bottom:5%;">
+                    <h2>Tropical Rainforest<br>
+                        Living Colletion
+                    </h2>
+                    <br>
+                    <br>
+                    <p>Many tropical plant species in Malaysia face an elevated risk of extinction due to logging,
+                       forest fragmentation and land use change. Malaysia’s Plant Red List for the Peninsular
+                       Malaysian Dipterocarps states that over half of the dipterocarp species have a threatened
+                       category nationwide i.e. they are Critically Endangered, Endangered and Vulnerable.
+                       <br><br>
+                       TRCRC has established conservation sites, known as Tropical Rainforest Living Collections
+                       (TRLCs), to safeguard these tropical plant species. At TRLCs, seeds from threatened plants
+                       are collected, germinated and planted on our established sites to produce seeds and
+                       planting material for restoration projects.
+                    </p>
+                       
+                </div>
+
+        </div>
+    </div>
+
+    <section class="video-player" id="vid-play" style="margin-top:5%; margin-bottom:5%;">
+            <div class="container-fluid vid-content">
+                    <h3>The Process</h3>
+                    <div class="play">
+                        
+                        <a href="https://www.youtube.com/watch?v=V_plRH5aAC0" target="_blank" style="border:none; color:white; cursor: pointer;"><i class="fas fa-play"></i></a>
+                        
+                    </div>
+                    
+                    
+             </div>
+            <!--
+             <div class="modal fade pop-box" id="youtubeVideo" role="dialog">
+                    <div class="modal-dialog" >
+                      <div class="modal-content">
+                        <div class="modal-header" style="border-bottom: 0 none;"></div>
+                          <button type="button" class="close" data-dismiss="modal"><i class="fas fa-times"></i>
+                                </button>
+                          
+                        </div>
+                        <div class="modal-body">
+                                
+                                <div class="video-container"><iframe width="853" height="480" src="https://www.youtube.com/embed/V_plRH5aAC0" frameborder="0" allowfullscreen></iframe></div>
+                        </div>
+                        
+                      </div>
+                   
+            </div>-->
+            
+    </section>
+    <div class="card">
+       
+        <div  class="card-title" >
+            <h3>On-going TRLC</h3>
+        </div>
+      
+            <ul class="nav nav-tabs" role="tablist" >
+                    
+                    <li role="presentation" class="active fulltabs"><a href="#merisuli-sbh" aria-controls="merisuli-sbh" role="tab" data-toggle="tab">Merisuli</a></li>
+                    <li role="presentation" class="fulltabs"><a href="#banun-prk" aria-controls="banun-prk" role="tab" data-toggle="tab">Banun</a></li>
+                    
+            </ul>
+            <div class="tab-content">
+       
+
+    
+                    <div role="tabpanel" class="tab-pane active merisuli-sbh" id="merisuli-sbh" >
+                            <div class="container-fluid">
+                                <div class="ms-title" style="text-align:center; margin-top:10%;">
+                                    <h2>TRLC<br><b>Merisuli, Sabah</b></h2>
+                                </div>
+                                <div class="ms-content">
+                                    <p>Established through collaboration with Sabah Forestry Department, this site covers an
+                                            area of 224 hectares located within the Ulu Segama-Malua Sustainable Forest
+                                            Management Project.</p>
+                                    <img src="./img/merisuli-map.png" alt="" width="100%" height="auto" >
+                                    <!--<p style="font-family: 'Quicksand_Book_Oblique'; padding-top:2%; text-align:left;text-align-last:left; font-size:calc(10pt + (14 - 10) * ((100vw - 300px) / (1600 - 300)));">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                            has been the industry's standard dummy text ever since the 1500s</p>-->
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    
+                                </div>
+                                <div class="ms-title" style="text-align:center;">
+                                    <h2>Overview</h2>
+                                </div>
+                                <div class="ms-content">
+                                    <p>TRLC - Merisuli was established in 2012 and comprises of 224 hectares of secondary forest.
+                                            At this site, the collection of seeds outside protected areas will be prioritised with the aim
+                                            of safeguarding threatened species. These seedlings are used to restore and rehabilitate
+                                            forests in the project area.<br><br><br>
+                                            As part of the Ulu Segama-Malua Sustainable Forest Management Project, this site is
+                                            certified under the Forest Stewardship Council (FSC) and is committed to comply with
+                                            FSC Principles and Criteria.<br><br><br>
+                                            With support from Sabah Forestry Department, TRCRC has created a 10-Year Forest
+                                            Management Plan for this project site, which includes actionable measures to ensure the
+                                            long-term sustainability of this project. Future endeavours include an education centre and
+                                            a regular volunteering program.</p>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    
+                                </div>
+
+                                
+                            </div>
+                            <!--
+                            <section class="image-highlight" >
+                                <div class="slider" id="slider1">
+                                        <div class="slide slide1"><span class="txt-slide">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                            has been the industry's standard dummy text ever since the 1500s</span></div>
+                                        <div class="slide slide2"><span class="txt-slide">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                            has been the industry's standard dummy text ever since the 1500s</span></div>
+                                        <div class="slide slide3"><span class="txt-slide">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                            has been the industry's standard dummy text ever since the 1500s</span></div>
+                                        <div class="slide slide4"><span class="txt-slide">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                            has been the industry's standard dummy text ever since the 1500s</span></div>
+                                        <div class="slide slide5"><span class="txt-slide">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                            has been the industry's standard dummy text ever since the 1500s</span></div>
+                                </div>
+                                <a class="arrow-left" href="javascript:void(0);"><img src="./img/left-short-white.png" alt=""></a>
+                                <a class="arrow-right" href="javascript:void(0);"><img src="./img/right-short-white.png" alt=""></a>
+                                <div class="dots-wrapper" style="display:none;"></div>
+                    
+                            </section>-->
+                           <section class="image-highlight">
+                            <!-- Carousel 100% Fullscreen -->
+                            <div id="carousel-one" class="carousel slide car-mer" data-ride="carousel">
+                                    <!-- Indicators -->
+                                    <!--<ol class="carousel-indicators">
+                                      <li data-target="#carousel-one" data-slide-to="0" class="active"></li>
+                                      <li data-target="#carousel-one" data-slide-to="1"></li>
+                                      <li data-target="#carousel-one" data-slide-to="2"></li>
+                                    </ol>-->
+                                  
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner">
+                                      <div class="item bg bg-slide-1 active ">
+                                           <img src="./img/merisuli-1.png" alt="merisuli-1" style="width:100%; height:auto; ">
+                                            <div class="carousel-caption-mer">
+                                                <p>An experience like to other - camping out under the bright starry sky in TRLC Merisuli.</p>
+                                            </div>
+                                      </div>
+                                      
+                                      <div class="item bg bg-slide-2 ">
+                                            <img src="./img/merisuli-2.png" alt="merisuli-2" style="width:100%; ">
+                                            <div class="carousel-caption-mer">
+                                                <p>G-Team are all smiles with Affin Hwang Asset Management participants on Nursery Day at TRCRC headquarters.</p>
+                                            </div>
+                                      </div>
+
+                                      <div class="item bg bg-slide-3 ">
+                                            <img src="./img/merisuli-3.png" alt="merisuli-3" style="width:100%; ">
+                                            <div class="carousel-caption-mer">
+                                                <p>Our corporate partners from Vanke enjoying the sunset view in TRLC Merisuli.</p>
+                                            </div>
+                                      </div>
+
+                                      <div class="item bg bg-slide-4 ">
+                                            <img src="./img/merisuli-4.png" alt="merisuli-4" style="width:100%; ">
+                                            <div class="carousel-caption-mer">
+                                                <p>Rows of seedlings meticulously arranged in the TRLC Merisuli nursery. At this stage, 
+                                                    the seedlings are watered about 3 times a day to ensure their optimum growth.</p>
+                                            </div>
+                                      </div>
+
+                                      <div class="item bg bg-slide-5 ">
+                                            <img src="./img/merisuli-5.png" alt="merisuli-5" style="width:100%; ">
+                                            <div class="carousel-caption-mer">
+                                                <p>Rows of seedlings meticulously arranged in the TRLC Merisuli nursery. At this stage, 
+                                                    the seedlings are watered about 3 times a day to ensure their optimum growth.</p>
+                                            </div>
+                                      </div>
+
+                                      <div class="item bg bg-slide-6 ">
+                                            <img src="./img/merisuli-6.png" alt="merisuli-6" style="width:100%; ">
+                                            <div class="carousel-caption-mer">
+                                                <p>Suhaili and Affin Hwang Asset Management participants on Nursery Day showing off their successfully germinated seedlings in polybags.</p>
+                                            </div>
+                                      </div>
+
+                                      <div class="item bg bg-slide-7 ">
+                                            <img src="./img/merisuli-7.png" alt="merisuli-7" style="width:100%; ">
+                                            <div class="carousel-caption-mer">
+                                                <p>Suhaili and the G-Team taking a breather after a full day's work of clearing invasive plant species to prepare the
+                                                     site for tree planting in Batu Gangan, Pahang.</p>
+                                            </div>
+                                      </div>
+
+                                      <div class="item bg bg-slide-8 ">
+                                            <img src="./img/merisuli-8.png" alt="merisuli-8" style="width:100%; ">
+                                            <div class="carousel-caption-mer">
+                                                <p>The Merisuli team out on a tree tagging survey, where they locate potential parent trees and record its location, 
+                                                    and note the possibilities of the next fruiting.</p>
+                                            </div>
+                                      </div>
+
+                                      <div class="item bg bg-slide-9 ">
+                                            <img src="./img/merisuli-9.png" alt="merisuli-9" style="width:100%; ">
+                                            <div class="carousel-caption-mer">
+                                                <p>The two green patches in the middle of this photo are TRLC Merisuli' s planting nurseries, where collected seeds from expeditions 
+                                                    are germinated and taken care of until they reach a suitable planting age.</p>
+                                            </div>
+                                      </div>
+
+                                      <div class="item bg bg-slide-10 ">
+                                            <img src="./img/merisuli-10.png" alt="merisuli-10" style="width:100%; ">
+                                            <div class="carousel-caption-mer">
+                                                <p>The women of TRLC Merisuli pruning the leaves of nurtured saplings to reduce the rate of evapotranspiration.</p>
+                                            </div>
+                                      </div>
+
+                                      <div class="item bg bg-slide-11 ">
+                                            <img src="./img/merisuli-11.png" alt="merisuli-11" style="width:100%; ">
+                                            <div class="carousel-caption-mer">
+                                                <p>TRCRC team and Dr. Reza Azmi from Wild Asia enjoying a scenic view from the campsite they have set up in TRLC Merisuli.</p>
+                                            </div>
+                                      </div>
+
+                                      <div class="item bg bg-slide-12 ">
+                                            <img src="./img/merisuli-12.png" alt="merisuli-12" style="width:100%; ">
+                                            <div class="carousel-caption-mer">
+                                                <p>TRCRC team observing a spectacular view of the night sky in TRLC Merisuli.</p>
+                                            </div>
+                                      </div>
+
+                                      
+                                      
+                                     
+                                    </div>
+                                  
+                                    <!-- Controls -->
+                                    <a class="left carousel-control" href="#carousel-one" data-slide="prev">
+                                      <span class="arrow-left"><img src="./img/left-short-white.png" alt="left-arrow"></span>
+                                    </a>
+                                    <a class="right carousel-control" href="#carousel-one" data-slide="next">
+                                      <span class="arrow-right"><img src="./img/right-short-white.png" alt="right-arrow"></span>
+                                    </a>
+                                  </div>
+                           </section>
+                           
+                           
+                           <div id="row_under_carousel">
+                            <div class="caption-below">
+                            <span></span>
+                            </div>
+                        </div>
+
+                        <!--
+                            <section class="text-image">
+                                    <div class="txt-last">
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                            has been the industry's standard dummy text ever since the 1500s</p>
+                                    </div>
+                            </section>-->
+                        
+                            <section class="key-people">
+                                <div class="row">
+                                    <div class="col-lg-6 kp-txt"><p>Key People</p></div>
+                                    <div class="col-lg-6 kp-img">
+                                        <div class="content-img">
+                                            <img src="./img/trlc-kp-m-1.png" alt="kp1">&nbsp;&nbsp;
+                                            <img src="./img/trlc-kp-m-2.png" alt="kp2">&nbsp;&nbsp;
+                                        
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+
+                     </div>
+
+                     <div role="tabpanel" class="tab-pane banun-prk" id="banun-prk">
+                                <div class="container-fluid">
+                                    <div class="ms-title" style="text-align:center; margin-top:10%;">
+                                        <h2>TRLC<br><b>Banun, Perak</b></h2>
+                                    </div>
+                                    <div class="ms-content">
+                                        <p>This 500-hectare site is located within the Amanjaya Forest Reserve and is supported by
+                                                Perak Forestry Department.</p>
+                                        <img src="./img/banun-map.png" alt="" width="100%" height="auto" >
+                                        <p style="font-family: 'Quicksand_Book_Oblique'; padding-top:2%; text-align:center; font-size:calc(10pt + (14 - 10) * ((100vw - 300px) / (1600 - 300)));">Proposed plan for TRLC (Tropical Rainforest Living Collection) Banun, Perak - 500 ha</p>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        
+                                    </div>
+                                    <div class="ms-title" style="text-align:center;">
+                                        <h2>Overview</h2>
+                                    </div>
+                                    <div class="ms-content">
+                                        <p>TRLC – Banun, established in 2013, is a 500-hectare site located in Gerik, Perak and is part
+                                                of the Amanjaya Forest Reserve. This site is divided by the Gerik-Jeli highway and the
+                                                primary focus of this site is to hold an in-situ collection of rare and endangered trees which
+                                                are restricted to Peninsular Malaysia. The site will secondarily work to advance Malaysia’s
+                                                Central Forest Spine initiative, which aims to reconnect fragmented forests across
+                                                Peninsular Malaysia. By securing connectivity between forest fragments, a route for
+                                                wildlife crossings will be provided.<br><br><br>
+                                                TRCRC operates TRLC - Banun with support from Perak Forestry Department over a
+                                                60-year lease agreement of the 500-hectare project site area.</p>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        
+                                    </div>
+                        
+                                    
+                                </div>
+                                
+                                <!--
+                                <section class="image-highlight" >
+                                    <div class="n-slider" id="n-slider1">
+                                            <div class="n-slide n-slide1"><span class="txt-slide">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                                has been the industry's standard dummy text ever since the 1500s</span></div>
+                                            <div class="n-slide n-slide2"><span class="txt-slide">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                                has been the industry's standard dummy text ever since the 1500s</span></div>
+                                            <div class="n-slide n-slide3"><span class="txt-slide">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                                has been the industry's standard dummy text ever since the 1500s</span></div>
+                                            <div class="n-slide n-slide4"><span class="txt-slide">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                                has been the industry's standard dummy text ever since the 1500s</span></div>
+                                            <div class="n-slide n-slide5"><span class="txt-slide">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                                has been the industry's standard dummy text ever since the 1500s</span></div>
+                                    </div>
+                                    <a class="n-arrow-left" href="javascript:void(0);"><img src="./img/left-short-white.png" alt=""></a>
+                                    <a class="n-arrow-right" href="javascript:void(0);"><img src="./img/right-short-white.png" alt=""></a>
+                                    <div class="n-dots-wrapper" style="display:none;"></div>
+                        
+                                </section>-->
+                                <section class="image-highlight">
+                                        <!-- Carousel 100% Fullscreen -->
+                                        <div id="carousel-two" class="carousel slide car-ban" data-ride="carousel">
+                                                <!-- Indicators -->
+                                                <!--<ol class="carousel-indicators">
+                                                  <li data-target="#carousel-two" data-slide-to="0" class="active"></li>
+                                                  <li data-target="#carousel-two" data-slide-to="1"></li>
+                                                  <li data-target="#carousel-two" data-slide-to="2"></li>
+                                                </ol>-->
+                                              
+                                                <!-- Wrapper for slides -->
+                                                <div class="carousel-inner">
+                                                  <div class="item bg bg-slide-1 active ">
+                                                        <img src="./img/banun-1.png" alt="banun-1" style="width:100%; ">
+                                                        <div class="carousel-caption-ban">
+                                                            <p>Dzaeman explaining to the Yayasan Hasanah's board of trustees on the mechanics of seed germination in TRLC Banun.</p>
+                                                        </div>
+                                                  </div>
+                                                  <div class="item bg bg-slide-2 ">
+                                                        <img src="./img/banun-2.png" alt="banun-2" style="width:100%; ">
+                                                        <div class="carousel-caption-ban">
+                                                            <p>G-Team meticulously keeps the man-made stove running by feeding it with dry wood in Perak.</p>
+                                                        </div>
+                                                  </div>
+            
+                                                  <div class="item bg bg-slide-3 ">
+                                                        <img src="./img/banun-3.png" alt="banun-3" style="width:100%; ">
+                                                        <div class="carousel-caption-ban">
+                                                            <p>G-Team eagerly waiting for their food to be fully cooked under a man-made stove in Perak.</p>
+                                                        </div>
+                                                  </div>
+            
+                                                  <div class="item bg bg-slide-4 ">
+                                                        <img src="./img/banun-4.png" alt="banun-4" style="width:100%; ">
+                                                        <div class="carousel-caption-ban">
+                                                            <p>Luqman mixing the soil medium at TRCRC headquaters which will be used to fill up the polybags that the seeds will be placed in.</p>
+                                                        </div>
+                                                  </div>
+            
+                                                  <div class="item bg bg-slide-5 ">
+                                                        <img src="./img/banun-5.png" alt="banun-5" style="width:100%; ">
+                                                        <div class="carousel-caption-ban">
+                                                            <p>Luqman pruning unwanted leaves from various seedlings before transplanting them into polybags.</p>
+                                                        </div>
+                                                  </div>
+            
+                                                  <div class="item bg bg-slide-6 ">
+                                                        <img src="./img/banun-6.png" alt="banun-6" style="width:100%; ">
+                                                        <div class="carousel-caption-ban">
+                                                            <p>The new recruits of the Ground Team (G-Team) programme participating in an orientation session in Tanjung Malim, Perak.</p>
+                                                        </div>
+                                                  </div>
+            
+                                                  <div class="item bg bg-slide-7 ">
+                                                        <img src="./img/banun-7.png" alt="banun-7" style="width:100%; ">
+                                                        <div class="carousel-caption-ban">
+                                                            <p>The starry night sky casts its shadow on a sandy riverbank in Perak.</p>
+                                                        </div>
+                                                  </div>
+            
+                                                  <div class="item bg bg-slide-8 ">
+                                                        <img src="./img/banun-8.png" alt="banun-8" style="width:100%; ">
+                                                        <div class="carousel-caption-ban">
+                                                            <p>Yayasan Hasanahs board of trustees (Tan Sri Zarinah Anwar and Caroline Christine Russell) 
+                                                               discussing with our chairman, Tun Jeanne Abdullah on enhancing conservation potential of TRLC Banun.</p>
+                                                        </div>
+                                                  </div>
+            
+                                                  
+                                                  
+                                                 
+                                                </div>
+                                              
+                                                <!-- Controls -->
+                                                <a class="left carousel-control" href="#carousel-two" data-slide="prev">
+                                                  <span class="arrow-left"><img src="./img/left-short-white.png" alt="left-arrow"></span>
+                                                </a>
+                                                <a class="right carousel-control" href="#carousel-two" data-slide="next">
+                                                  <span class="arrow-right"><img src="./img/right-short-white.png" alt="right-arrow"></span>
+                                                </a>
+                                              </div>
+                                       </section>
+                            
+                                    <div id="row_under_carousel_banun">
+                                        <div class="caption-below">
+                                        <span></span>
+                                        </div>
+                                    </div>
+                            
+                                <section class="key-people">
+                                    <div class="row">
+                                        <div class="col-lg-6 kp-txt"><p>Key People</p></div>
+                                        <div class="col-lg-6 kp-img">
+                                            <div class="content-img">
+                                                <img src="./img/trlc-kp-b-1.png" alt="kp1">&nbsp;&nbsp;
+                                                <img src="./img/trlc-kp-b-2.png" alt="kp2">&nbsp;&nbsp;
+                                            
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+    
+    
+                 </div>
+        </div>
+    </div>
+    
+
+    <div class="footer">
+        <div class="container-fluid" id="footer-content">
+            <div class="row" id="footer-1">
+                <div class="col-lg-5 col-m-6 col-sm-6 col-xs-6" style="padding:0!important;">
+                    <p><a href="https://drive.google.com/drive/folders/12ahAQa-NMMVu-0RECdLyNoIf5qKrlgew?usp=sharing" id="footlink">FOR THE PRESS</a></p><pre></pre><p><a href="./contact.html" id="footlink">CONTACT</a></p>
+                </div>
+                <div class="col-lg-7 col-m-6 col-sm-6 col-xs-6"style="padding:0 !important;">
+                    <div class="logo-foot" >
+                        <img src="./img/footer-logo.png" alt="" style="padding-bottom:10px;"><pre></pre><p style="font-family:'Quicksand_Bold';">© TRCRC 2019</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+</div>
+
+
+<!--
+<script src="./scripts/slider.js" type="text/javascript"></script>
+-->
+<script src="./scripts/scrollTop.js" type="text/javascript"></script>
+<script>
+    $(function() {
+    $('.car-mer').carousel();
+    var caption = $('div.item:nth-child(1) .carousel-caption-mer');
+    $('#row_under_carousel span').html(caption.html());
+    caption.css('display','none');
+    $(".car-mer").on('slide.bs.carousel', function(evt) {
+   var caption = $('div.item:nth-child(' + ($(evt.relatedTarget).index()+1) + ') .carousel-caption-mer');
+   $('#row_under_carousel span').html(caption.html());
+   caption.css('display','none');
+    });
+    });
+</script>
+<script>
+    $(function() {
+    $('.car-ban').carousel();
+    var caption = $('div.item:nth-child(1) .carousel-caption-ban');
+    $('#row_under_carousel_banun span').html(caption.html());
+    caption.css('display','none');
+    $(".car-ban").on('slide.bs.carousel', function(evt) {
+   var caption = $('div.item:nth-child(' + ($(evt.relatedTarget).index()+1) + ') .carousel-caption-ban');
+   $('#row_under_carousel_banun span').html(caption.html());
+   caption.css('display','none');
+    });
+    });
+</script>
+
+<script>
+        $('#fbimg').hover(function() {
+        $(this).attr('src', './img/facebook-m-b.png');
+        }, function() {
+        $(this).attr('src', './img/facebook-m.png');
+        });
+
+        $('#igimg').hover(function() {
+        $(this).attr('src', './img/instagram-m-b.png');
+        }, function() {
+        $(this).attr('src', './img/instagram-m.png');
+        });
+
+        $('#ytimg').hover(function() {
+        $(this).attr('src', './img/youtube-m-b.png');
+        }, function() {
+        $(this).attr('src', './img/youtube-m.png');
+        });
+    </script>
+
+</body>
+</html>
