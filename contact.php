@@ -198,7 +198,7 @@ if (isset($_POST['send'])){
                 <span style="font-style: italic"></span>
                 <br>Tiger paw prints were found while trekking across one of the
                     forest reserves in Malaysia. Signs of wildlife indicate a
-                    healthy ecosystem</p>
+                    healthy ecosystem.</p>
             </div>
            
         </div>
