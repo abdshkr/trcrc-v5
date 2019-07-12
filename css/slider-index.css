@@ -392,7 +392,7 @@
 
 .txt-opt{
     
-  font-size:calc(8.5pt + (38 - 8.5) * ((100vw - 300px) / (1600 - 300)));
+  font-size:calc(8.5pt + (32.5 - 8.5) * ((100vw - 300px) / (1600 - 300)));
   font-family: "Quicksand_Book_Oblique";
   color:white;
 }
@@ -419,7 +419,7 @@
 }
 
 .bg img{
-  width:100%
+  width:100%;
 }
 
 

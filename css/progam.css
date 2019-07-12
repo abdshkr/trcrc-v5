@@ -306,7 +306,7 @@ body{
 .prog-head{
     margin: 0;
     padding: 0;
-    background: url("../img/prog-head.png");
+    background: url("../img/prog-head.jpg");
     background-repeat:no-repeat;
     background-size:cover;
     background-position: center;
@@ -320,7 +320,7 @@ body{
 .trlc-head{
     margin: 0;
     padding: 0;
-    background: url("../img/TRLC.png");
+    background: url("../img/TRLC.jpg");
     background-repeat:no-repeat;
     background-size:cover;
     background-position: center;
@@ -333,7 +333,7 @@ body{
 .FNE-head{
     margin: 0;
     padding: 0;
-    background: url("../img/FNE.png");
+    background: url("../img/FNE.jpg");
     background-repeat:no-repeat;
     background-size:cover;
     background-position: center;
@@ -346,7 +346,7 @@ body{
 .CFS-head{
     margin: 0;
     padding: 0;
-    background: url("../img/CFS.png");
+    background: url("../img/CFS.jpg");
     background-repeat:no-repeat;
     background-size:cover;
     background-position: center;
